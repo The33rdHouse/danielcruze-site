@@ -23,4 +23,4 @@ Create at: https://dash.cloudflare.com/profile/api-tokens → **Create Token** �
 | danielcruze.store | 404 app | Optional redirect Worker → /books or Beacons |
 
 ## Workflow
-`.github/workflows/cloudflare-pages.yml` runs `wrangler pages deploy` on push to `main`.
+The workflow `.github/workflows/cloudflare-pages.yml` is **not committed in this repository**. The Wrangler configuration does not itself deploy anything. Confirm the live Cloudflare Pages project, its Git integration, account permissions and custom domains before changing DNS. See `DOMAIN-RECOVERY.md`.
